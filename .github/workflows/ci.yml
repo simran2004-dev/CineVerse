@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Build Auth Service
+        working-directory: backend/auth-service
+        run: mvn clean package
+
+      - name: Build Movie Service
+        working-directory: backend/movie-service
+        run: mvn clean package
+
+      - name: Build Booking Service
+        working-directory: backend/booking-service
+        run: mvn clean package
+
+      - name: Build Notification Service
+        working-directory: backend/notification-service
+        run: mvn clean package
+
+      - name: Build API Gateway
+        working-directory: api-gateway
+        run: mvn clean package
