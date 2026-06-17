@@ -1,5 +1,0 @@
-/Users/arcstar/Downloads/Github/FullStack/backend/notification-service/src/main/java/com/cineverse/notification/NotificationServiceApplication.java
-/Users/arcstar/Downloads/Github/FullStack/backend/notification-service/src/main/java/com/cineverse/notification/consumer/BookingNotificationConsumer.java
-/Users/arcstar/Downloads/Github/FullStack/backend/notification-service/src/main/java/com/cineverse/notification/dto/BookingNotificationEvent.java
-/Users/arcstar/Downloads/Github/FullStack/backend/notification-service/src/main/java/com/cineverse/notification/service/EmailNotificationService.java
-/Users/arcstar/Downloads/Github/FullStack/backend/notification-service/src/main/java/com/cineverse/notification/config/RabbitMQConfig.java
