@@ -1,0 +1,39 @@
+# Java / Maven build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes / local data
+docker/postgres-data/
+docker/mongo-data/
+docker/redis-data/
