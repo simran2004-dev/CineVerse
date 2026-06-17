@@ -60,7 +60,7 @@
 .login-card {
   background: rgba(15, 23, 42, 0.8);
   backdrop-filter: blur(24px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 24px;
   padding: 2.5rem;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
@@ -142,7 +142,7 @@
 .login-demo {
   margin-top: 1.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .demo-title {
@@ -163,8 +163,8 @@
 .demo-btn {
   flex: 1;
   padding: 0.55rem 0.5rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   color: #94a3b8;
   font-size: 0.78rem;

@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg-primary: #0b0f1a;
-  --bg-secondary: #0f172a;
-  --text-primary: #e2e8f0;
-  --text-secondary: #94a3b8;
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
   --text-muted: #64748b;
-  --accent: #6366f1;
+  --accent: #4f46e5;
   --accent-light: #a5b4fc;
-  --border: rgba(255, 255, 255, 0.08);
+  --border: rgba(0, 0, 0, 0.08);
 }
 
 * {
@@ -63,12 +63,12 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 /* Loading */
@@ -113,6 +113,6 @@ select {
 }
 
 select option {
-  background: #1e293b;
-  color: #e2e8f0;
+  background: #ffffff;
+  color: #0f172a;
 }

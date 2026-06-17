@@ -78,7 +78,7 @@
 .admin-table-wrapper {
   overflow-x: auto;
   border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .admin-table {
@@ -94,19 +94,19 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: #64748b;
-  background: rgba(255, 255, 255, 0.03);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .admin-table td {
   padding: 0.8rem 1.2rem;
   font-size: 0.88rem;
   color: #cbd5e1;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 .admin-table tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(0, 0, 0, 0.02);
 }
 
 .table-movie {
@@ -206,7 +206,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 0.75rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 8px;
 }
 

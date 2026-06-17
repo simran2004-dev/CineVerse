@@ -63,7 +63,7 @@
   overflow: hidden;
   border: 2px solid transparent;
   transition: all 0.25s ease;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.04);
 }
 
 .movie-select-card:hover {
@@ -233,7 +233,7 @@
 }
 
 .receipt-divider {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
   margin: 0.3rem 0;
 }
 
