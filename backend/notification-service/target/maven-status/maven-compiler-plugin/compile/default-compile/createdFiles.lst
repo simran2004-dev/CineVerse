@@ -1,0 +1,6 @@
+com/cineverse/notification/dto/BookingNotificationEvent.class
+com/cineverse/notification/consumer/BookingNotificationConsumer.class
+com/cineverse/notification/service/EmailNotificationService.class
+com/cineverse/notification/dto/BookingNotificationEvent$BookingNotificationEventBuilder.class
+com/cineverse/notification/config/RabbitMQConfig.class
+com/cineverse/notification/NotificationServiceApplication.class

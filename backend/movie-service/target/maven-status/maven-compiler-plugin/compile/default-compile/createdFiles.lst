@@ -1,0 +1,15 @@
+com/cineverse/movie/entity/Review$ReviewBuilder.class
+com/cineverse/movie/service/FileStorageService.class
+com/cineverse/movie/exception/ResourceNotFoundException.class
+com/cineverse/movie/repository/MovieRepository.class
+com/cineverse/movie/entity/Movie.class
+com/cineverse/movie/MovieServiceApplication.class
+com/cineverse/movie/exception/GlobalExceptionHandler.class
+com/cineverse/movie/dto/ApiResponse$ApiResponseBuilder.class
+com/cineverse/movie/dto/ApiResponse.class
+com/cineverse/movie/service/MovieService.class
+com/cineverse/movie/entity/Review.class
+com/cineverse/movie/entity/Movie$MovieBuilder.class
+com/cineverse/movie/dto/MovieDTO.class
+com/cineverse/movie/dto/ReviewDTO.class
+com/cineverse/movie/controller/MovieController.class

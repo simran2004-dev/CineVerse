@@ -1,0 +1,14 @@
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/entity/User.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/AuthServiceApplication.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/repository/UserRepository.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/exception/GlobalExceptionHandler.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/service/AuthService.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/util/JwtUtil.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/dto/AuthResponse.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/dto/LoginDTO.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/dto/RegisterDTO.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/exception/ErrorResponse.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/entity/Role.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/exception/CustomException.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/config/SecurityConfig.java
+/Users/arcstar/Downloads/Github/FullStack/backend/auth-service/src/main/java/com/cineverse/auth/controller/AuthController.java

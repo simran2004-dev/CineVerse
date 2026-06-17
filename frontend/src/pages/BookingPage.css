@@ -1,0 +1,243 @@
+.booking-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.booking-header {
+  margin-bottom: 2rem;
+}
+
+.booking-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #e2e8f0;
+  margin: 0 0 0.3rem;
+  letter-spacing: -0.03em;
+}
+
+.booking-subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Steps */
+.booking-step {
+  margin-bottom: 2.5rem;
+}
+
+.step-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin: 0 0 1.25rem;
+}
+
+.step-number {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Movie Selection */
+.movie-select-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.movie-select-card {
+  cursor: pointer;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: all 0.25s ease;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.movie-select-card:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+  transform: translateY(-2px);
+}
+
+.movie-selected {
+  border-color: #6366f1;
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+}
+
+.movie-select-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.movie-select-info {
+  padding: 0.6rem 0.8rem;
+}
+
+.movie-select-title {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-select-meta {
+  font-size: 0.72rem;
+  color: #64748b;
+}
+
+/* Shows */
+.shows-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.show-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.show-selected {
+  border-color: #6366f1 !important;
+  background: rgba(99, 102, 241, 0.08) !important;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.15);
+}
+
+.show-time {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #a5b4fc;
+}
+
+.show-theatre {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+
+.show-end {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.no-shows {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Confirm */
+.booking-confirm-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  background: rgba(99, 102, 241, 0.06);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: 16px;
+  margin-top: 1.5rem;
+}
+
+.confirm-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  color: #e2e8f0;
+  font-size: 0.92rem;
+}
+
+.confirm-total {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #a5b4fc;
+}
+
+/* Success */
+.booking-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  gap: 1rem;
+}
+
+.success-animation {
+  animation: bounce-in 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes bounce-in {
+  0% { transform: scale(0); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.success-icon {
+  font-size: 4rem;
+  display: block;
+}
+
+.booking-success h2 {
+  font-size: 1.8rem;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.booking-success p {
+  color: #64748b;
+  margin: 0 0 1rem;
+}
+
+.booking-receipt {
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.receipt-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+}
+
+.receipt-label {
+  color: #64748b;
+  font-size: 0.88rem;
+}
+
+.receipt-value {
+  color: #e2e8f0;
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.receipt-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 0.3rem 0;
+}
+
+.receipt-total .receipt-value {
+  color: #a5b4fc;
+  font-size: 1.1rem;
+}

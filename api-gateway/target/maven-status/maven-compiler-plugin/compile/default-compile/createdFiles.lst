@@ -1,0 +1,5 @@
+com/cineverse/gateway/filter/LoggingFilter.class
+com/cineverse/gateway/filter/AuthenticationFilter$Config.class
+com/cineverse/gateway/util/JwtUtil.class
+com/cineverse/gateway/filter/AuthenticationFilter.class
+com/cineverse/gateway/ApiGatewayApplication.class

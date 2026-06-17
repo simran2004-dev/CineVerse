@@ -1,0 +1,221 @@
+.admin-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.admin-header {
+  margin-bottom: 2rem;
+}
+
+.admin-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #e2e8f0;
+  margin: 0 0 0.3rem;
+}
+
+.admin-subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.admin-denied {
+  text-align: center;
+  padding: 5rem 2rem;
+  color: #64748b;
+}
+
+.admin-denied span {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.admin-denied h2 {
+  color: #e2e8f0;
+  margin: 0 0 0.5rem;
+}
+
+/* Section */
+.admin-section {
+  margin-bottom: 2.5rem;
+}
+
+.admin-section .section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.admin-section .section-header h2 {
+  font-size: 1.3rem;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.admin-add-btn {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.admin-add-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+/* Table */
+.admin-table-wrapper {
+  overflow-x: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 0.9rem 1.2rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #64748b;
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.admin-table td {
+  padding: 0.8rem 1.2rem;
+  font-size: 0.88rem;
+  color: #cbd5e1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.admin-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.table-movie {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.table-poster {
+  width: 36px;
+  height: 52px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.table-rating {
+  color: #fbbf24;
+  font-weight: 600;
+}
+
+.table-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-edit, .action-delete {
+  padding: 0.3rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.action-edit {
+  background: rgba(99, 102, 241, 0.1);
+  color: #818cf8;
+}
+
+.action-edit:hover {
+  background: rgba(99, 102, 241, 0.2);
+}
+
+.action-delete {
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+}
+
+.action-delete:hover {
+  background: rgba(239, 68, 68, 0.2);
+}
+
+/* Theatre cards */
+.theatres-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1rem;
+}
+
+.theatre-card {
+  padding: 1.5rem;
+}
+
+.theatre-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.theatre-icon {
+  font-size: 1.8rem;
+}
+
+.theatre-name {
+  margin: 0 0 0.2rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.theatre-location {
+  font-size: 0.82rem;
+  color: #64748b;
+}
+
+.theatre-screens {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.screen-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.screen-name {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+}
+
+.screen-cap {
+  font-size: 0.78rem;
+  color: #64748b;
+}
